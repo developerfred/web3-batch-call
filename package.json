@@ -1,0 +1,35 @@
+{
+  "name": "web3-batch-call",
+  "version": "1.0.1",
+  "description": "",
+  "main": "batchCall.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x48-crypto/web3-batch-call.git"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "batchRequest"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "x48",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x48-crypto/web3-batch-call/issues"
+  },
+  "homepage": "https://github.com/x48-crypto/web3-batch-call#readme",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "delay": "^4.4.0",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "prettier": "^2.2.0"
+  }
+}
